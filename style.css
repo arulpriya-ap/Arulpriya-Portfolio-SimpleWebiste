@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.section-one__contact {
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    border: dotted 2px white;
+    border-radius: 5px;
+    
+}
+
+.section-one__name {
+    font-size: 60px;
+}
+
+.section-one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 20px;
+}
+
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    margin-top: 10px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.section-five__title a {
+    color: lightskyblue;
+    font-size: 20px;
+}
+
+.section-three li,
+.section-four li {
+    list-style: none;
+
+}
+
+.section-three {
+    background-color: #62d1fd;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 250px;
+    border-radius: 20px;
+    vertical-align: top;
+    width: 500px;
+}
+
+.section-four {
+    background-color: #fe7577;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 250px;
+    width: 500px;
+}
+
+.contact-form{
+    margin-top: 20px;
+}
+.contact-form__input,.contact-form__message, .contact-form__submitbtn{
+
+    margin-top: 10px;
+}
+
+.contact-form__input{
+    
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1px black;
+    
+
+}
+
+.contact-form__message{
+padding: 10px;
+border: none;
+border: dotted black 1px;
+}
+.contact-form__submitbtn{
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: orange;
+border: none;
+border: dotted;
+font-family: "Young Serif", serif;
+border-radius: 10px;
+}
+
+.contact-form__submitbtn:hover{
+    cursor: pointer;
+
+}
